@@ -31,8 +31,8 @@ import hf_hydrodata as hf          # HydroFrame data access package
 # Replace the placeholders below with your actual credentials.
 # WARNING: never share your PIN or push it to a public repository!
 
-HYDROFRAME_EMAIL = "your_email@example.com"   # <-- replace with your email
-HYDROFRAME_PIN   = "your_pin_here"            # <-- replace with your PIN
+HYDROFRAME_EMAIL = "xiradakis@arizona.edu"   # <-- replace with your email
+HYDROFRAME_PIN   = "1014"            # <-- replace with your PIN
 
 hf.register_api_pin(email=HYDROFRAME_EMAIL, pin=HYDROFRAME_PIN)
 print("Authentication successful.")
